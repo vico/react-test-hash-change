@@ -1,0 +1,17 @@
+{
+  "name": "react-test-hash",
+  "version": "0.0.0",
+  "description": "just for test some ideas",
+  "dependencies": {
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "browserify": "*",
+    "reactify": "*",
+    "watchify": "*"
+  },
+  "scripts": {
+    "start": "watchify -t [reactify --extention react] -o js/bundle.js -v -d js/app.js"
+  }
+    
+}
